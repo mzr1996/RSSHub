@@ -3,7 +3,7 @@
     "description": "万物皆可 RSS",
     "repository": "https://github.com/DIYgod/RSSHub",
     "website": "https://docs.rsshub.app/",
-    "logo": "https://i.imgur.com/NZpRScX.png",
+    "logo": "https://i.loli.net/2019/04/23/5cbeb7e41414c.png",
     "keywords": ["RSS"],
     "env": {
         "NODE_MODULES_CACHE": {
@@ -14,10 +14,7 @@
             "value": "80",
             "required": false
         },
-        "PIXIV_USERNAME": {
-            "required": false
-        },
-        "PIXIV_PASSWORD": {
+        "PIXIV_REFRESHTOKEN": {
             "required": false
         },
         "DISQUS_API_KEY": {
@@ -27,12 +24,6 @@
             "required": false
         },
         "TWITTER_CONSUMER_SECRET": {
-            "required": false
-        },
-        "TWITTER_ACCESS_TOKEN": {
-            "required": false
-        },
-        "TWITTER_ACCESS_TOKEN_SECRET": {
             "required": false
         },
         "YOUTUBE_KEY": {
